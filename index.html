@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section class="hero">
+      <img
+        id="toggleTheme"
+        class="theme-btn"
+        src="assets/theme_light.png"
+        alt="theme icon"
+      />
+      <div class="hero-pic">
+        <div class="inner-circle"></div>
+        <img
+          src="assets/haris.png"
+          alt="Haris Rafli Agustin"
+        />
+      </div>
+      <div class="hero-info">
+        <h1>Haris Rafli Agustin</h1>
+        <h2>Fresh Graduate & Job Seeker</h2>
+        <div class="logo-container">
+          <a href="www.linkedin.com/in/harisrafliagustin"
+            ><img src="assets/linkedin_light.png" alt="linkedin logo"
+          /></a>
+          <a href="harisrafli0@gmail.com"
+            ><img src="assets/email_light.png" alt="email logo"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <section class="experience">
+      <h2><b>22</b><br />Years<br />old</h2>
+      <h2><b>2</b><br />Completed<br />projects</h2>
+      <h2><b>1</b><br />Diploma<br />degree</h2>
+    </section>
+    <section class="cta">
+      <a href="https://drive.google.com/file/d/1LSHgGq3R-condVbDE4xWvbWx2MhASfg0/view" download>
+        <button class="btn download-btn">Download CV</button>
+      </a>
+      <a href="https://wa.me/6287887215670"
+        ><button class="btn contact-btn">Contact Me</button></a
+      >
+    </section>
+    <section class="portfolio-skills">
+      <div class="btn-bg">
+        <button class="btn-2 active-btn" id="portfolio-btn">Portfolio</button>
+        <button class="btn-2" id="skills-btn">Skills</button>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/"
+          ><img src="assets/pos.png" alt="Project 1"
+        /></a>
+      </div>
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/"
+          ><img src="assets/cv.png" alt="Project 2"
+        /></a>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="wrapper">
+        <h3>Frontend</h3>
+        <article class="frontend-skills">
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+          <p>Bootstrap</p>
+          <p>Tailwind CSS</p>
+          <p>Figma</p>
+        </article>
+      </div>
+      <div class="wrapper">
+        <h3>Backend</h3>
+        <article class="backend-skills">
+          <p>Laravel</p>
+          <p>Codeigniter</p>
+          <p>PHP</p>
+          <p>My SQL</p>
+          <p>Git</p>
+          <p>Database CRUD</p>
+          <p>Web Servers</p>
+        </article>
+      </div>
+    </section>
+    <footer>
+      <p>&copy 2024. Haris Rafli Agustin</p>
+    </footer>
+  </body>
+</html>
