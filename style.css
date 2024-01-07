@@ -4,8 +4,8 @@
   --primary-bg-color: #ffffff;
   --primary-text-color: #000000;
   --secondary-color: #575757;
-  --btn-bg-color: #2196f3;
-  --cta-hover-color: #167bce;
+  --btn-bg-color: #f32121;
+  --cta-hover-color: #ce1616;
   --btn-bg-light: #eeeeee;
 
   /* Dark Theme */
@@ -234,7 +234,7 @@ footer,
 
 .btn-2:hover,
 .active-btn {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 .btn,
