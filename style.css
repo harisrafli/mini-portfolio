@@ -12,8 +12,8 @@
   --dark-primary-bg-color: #222222;
   --dark-primary-text-color: #ffffff;
   --dark-secondary-color: #222222;
-  --dark-btn-bg-color: #0000FF;
-  --dark-cta-hover-color: #0000FF;
+  --dark-btn-bg-color: #1E90FF ;
+  --dark-cta-hover-color: #1E90FF;
   --dark-btn-bg-light: #eeeeee;
 }
 
@@ -238,7 +238,7 @@ footer,
 }
 
 .btn-2:hover {
-  background-color: #008000;
+  background-color: #32CD32;
 }
 
 .btn,
