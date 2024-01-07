@@ -3,7 +3,7 @@
   --primary-font: "Poppins", sans-serif;
   --primary-bg-color: #ffffff;
   --primary-text-color: #000000;
-  --secondary-color: #222222;
+  --secondary-color: #000000;
   --btn-bg-color: #FF0000;
   --cta-hover-color: #FF0000;
   --btn-bg-light: #eeeeee;
@@ -11,7 +11,7 @@
   /* Dark Theme */
   --dark-primary-bg-color: #222222;
   --dark-primary-text-color: #ffffff;
-  --dark-secondary-color: #222222;
+  --dark-secondary-color: #000000;
   --dark-btn-bg-color: #1E90FF ;
   --dark-cta-hover-color: #1E90FF;
   --dark-btn-bg-light: #eeeeee;
