@@ -124,7 +124,7 @@ h2 {
 }
 
 article p,
-.hero-info h2 {
+.hero-info h3 {
   color: var(--secondary-color);
 }
 
