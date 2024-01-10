@@ -10,4 +10,4 @@
 
 💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
 
-![assets/preview img](assets/preview.png)
+![preview img](assets/preview.png)
