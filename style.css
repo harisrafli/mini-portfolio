@@ -74,7 +74,8 @@ footer,
 
 .hero,
 .experience,
-.wrapper {
+.wrapper,
+.wrapper1 {
   text-align: center;
 }
 
@@ -107,6 +108,7 @@ article,
 }
 
 .hero-pic img,
+.wrapper1 img,
 .wrapper img {
   width: 60%;
 }
@@ -183,6 +185,7 @@ footer,
 .btn,
 .btn-2,
 .btn-bg,
+.wrapper1 h3,
 .wrapper h3 {
   font-weight: 600;
 }
@@ -191,6 +194,7 @@ footer,
 .btn-2,
 .btn-bg,
 .wrapper,
+.wrapper1,
 .project-wrapper {
   transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
     background-color 0.3s ease, color 0.3s ease;
@@ -204,7 +208,8 @@ footer,
 .download-btn:hover,
 .contact-btn:hover,
 .btn-2:hover,
-.wrapper img:hover {
+.wrapper img:hover,
+.wrapper1 img:hover {
   cursor: pointer;
 }
 
@@ -265,7 +270,8 @@ footer,
 }
 
 .btn-bg,
-.wrapper {
+.wrapper,
+.wrapper1 {
   width: 20rem;
 }
 
@@ -285,10 +291,11 @@ article p,
 }
 
 .wrapper img {
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 
 article,
+.wrapper1 h3,
 .wrapper h3 {
   margin-bottom: 1.5rem;
 }
@@ -322,6 +329,10 @@ footer {
     justify-content: center;
   }
   .wrapper {
+    width: calc(100%);
+    flex: none;
+  }
+  .wrapper1 {
     width: calc(48%);
     flex: none;
   }
