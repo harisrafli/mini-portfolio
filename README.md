@@ -10,4 +10,4 @@
 
 💘 This Preview ⤵. 
 
-![preview img](assets/preview.png)
+![preview img](assets/)
